@@ -1,9 +1,7 @@
 package com.prasanta.basics.logical;
 
-public class CheckArmstrongNumber
-{
-    public static void main(String[] args)
-    {
+public class CheckArmstrongNumber {
+    public static void main(String[] args) {
         int no = 154;
         int originalNumber = no;
         int sum = 0;
@@ -11,20 +9,17 @@ public class CheckArmstrongNumber
         // Calculate the number of digits
         int temp = no;
         int digits = 0;
-        while (temp != 0)
-        {
+        while (temp != 0) {
             digits++;
             temp = temp / 10;
         }
 
-        while (no != 0)
-        {
+        while (no != 0) {
             int rem = no % 10;
             int mul = 1;
 
             // Calculate rem^digits using a basic loop
-            for (int i = 0; i < digits; i++)
-            {
+            for (int i = 0; i < digits; i++) {
                 mul = mul * rem;
             }
 
@@ -32,12 +27,9 @@ public class CheckArmstrongNumber
             no = no / 10;
         }
 
-        if (sum == originalNumber)
-        {
+        if (sum == originalNumber) {
             System.out.println(originalNumber + " is an Armstrong number.");
-        }
-        else
-        {
+        } else {
             System.out.println(originalNumber + " is not an Armstrong number.");
         }
     }
