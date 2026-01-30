@@ -1,4 +1,4 @@
-package com.prasanta.basics.builderpattern;
+package com.prasanta.basics.designpattern.builderpattern;
 
 public class Shop {
     public static void main(String[] args) {

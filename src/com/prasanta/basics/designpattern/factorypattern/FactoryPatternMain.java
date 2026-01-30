@@ -1,4 +1,4 @@
-package com.prasanta.basics.factorypattern;
+package com.prasanta.basics.designpattern.factorypattern;
 
 public class FactoryPatternMain {
     public static void main(String[] args) {

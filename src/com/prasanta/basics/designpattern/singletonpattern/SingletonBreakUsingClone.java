@@ -1,4 +1,4 @@
-package com.prasanta.basics.singletonpattern;
+package com.prasanta.basics.designpattern.singletonpattern;
 
 public class SingletonBreakUsingClone extends SingletonClone{
      private static SingletonBreakUsingClone instance;
