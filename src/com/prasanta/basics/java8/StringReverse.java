@@ -8,7 +8,8 @@ public class StringReverse {
 
         String reduce = str.chars().mapToObj(c -> String.valueOf((char) c)).reduce("", (a, b) -> b + a);
         System.out.println(reduce);
-       String reverseString = Stream.of(str.split("")).reduce("",(a,b)->b+a);
+        String reverseString = Stream.of(str.split("")).reduce("", (a, b) -> b + a);
         System.out.println(reverseString);
+
     }
 }
